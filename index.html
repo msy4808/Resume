@@ -5,82 +5,113 @@
     <meta charset="UTF-8">
     <title>이력서</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="fullpage.css">
+    <script type="text/javascript" src="fullpage.js"></script>
 </head>
 
 <body>
-    <div class="mainbox">
-        <div class="title-box">
+    <div class="mainbox" id="fullpage">
+        <div class="title-box section">
             <div class="profile-img">
                 <img src="img/img.jpg" alt="사진" width="80px">
             </div>
-            <h1>문성운</h1>
-            <p class="name-text">자바 개발자</p>
+            <div class="profile-name">
+                <h1>문성운</h1>
+                <p class="name-text">자바 개발자</p>
+            </div>
 
 
+
+            <!-- </div>
+        <div class="section"> -->
+            <section>
+                <h2>ABOUT ME</h2>
+                <p class="about-me-text">자바 개발자로 이름을 날릴 인재.<br>
+                    자바뿐 아니라 자바스크립트 또한 섭렵해서 앱과 웹 두 분야 모두 도전하고픈 꿈있는 예비개발자.<br>
+                    현재진행형으로 열심히 공부를 하며 천천히 하나씩 쌓아가는중</p>
+                <div class="h_graph">
+                    <ul>
+                        <li><span class="g_term">열정</span><span class="g_bar color1" style="width:70%"><span>70%</span></span></li>
+                        <li><span class="g_term">코딩능력</span><span class="g_bar color2"style="width:75%"><span>75%</span></span></li>
+                        <li><span class="g_term">관심</span><span class="g_bar color3" style="width:90%"><span>90%</span></span></li>
+                        <li><span class="g_term">재능</span><span class="g_bar color4" style="width:80%"><span>80%</span></span></li>
+                        <li><span class="g_term">노력</span><span class="g_bar color5" style="width:70%"><span>70%</span></span></li>
+                        <li><span class="g_term">즐거움</span><span class="g_bar color6" style="width:100%"><span>100%</span></span></li>
+                        <li><span class="g_term">잠재력</span><span class="g_bar color7" style="width:80%"><span>80%</span></span></li>
+                    </ul>
+                </div>
+                <div class="h_graph2">
+                    <ul>
+                        <li><span class="g_term2">C언어</span><span class="g_bar2 color2_1" style="width:70%"><span>70%</span></span></li>
+                        <li><span class="g_term2">JAVA</span><span class="g_bar2 color2_2" style="width:85%"><span>85%</span></span></li>
+                        <li><span class="g_term2">HTML</span><span class="g_bar2 color2_3" style="width:60%"><span>60%</span></span></li>
+                        <li><span class="g_term2">CSS</span><span class="g_bar2 color2_4" style="width:50%"><span>50%</span></span></li>
+                        <li><span class="g_term2">JavaScript</span><span class="g_bar2 color2_5" style="width:70%"><span>70%</span></span></li>
+                    </ul>
+                </div>
+            </section>
         </div>
-        <section>
-            <h2>ABOUT ME</h2>
-            <p class="about-me-text">자바 개발자로 이름을 날릴 인재.<br>
-                자바뿐 아니라 자바스크립트 또한 섭렵해서 앱과 웹 두 분야 모두 도전하고픈 꿈있는 예비개발자.<br>
-                현재진행형으로 열심히 공부를 하며 천천히 하나씩 쌓아가는중</p>
-            <div class="h_graph">
-                <ul>
-                    <li><span class="g_term">열정</span><span class="g_bar" style="width:70%"><span>70%</span></span></li>
-                    <li><span class="g_term">코딩능력</span><span class="g_bar" style="width:75%"><span>75%</span></span></li>
-                    <li><span class="g_term">관심</span><span class="g_bar" style="width:90%"><span>90%</span></span></li>
-                    <li><span class="g_term">재능</span><span class="g_bar" style="width:80%"><span>80%</span></span></li>
-                    <li><span class="g_term">노력</span><span class="g_bar" style="width:70%"><span>70%</span></span></li>
-                    <li><span class="g_term">즐거움</span><span class="g_bar" style="width:100%"><span>100%</span></span></li>
-                    <li><span class="g_term">잠재력</span><span class="g_bar" style="width:80%"><span>80%</span></span></li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2>Projetc</h2>
-            <div class="float-wrap">
-                <p class="title-text">한이음 프로젝트</p>
-                <p class="year-text">2021</p>
-            </div>
-            <p class="desc-text">중고거래 반찬 앱 - Fooding</p>
-            <p class="desc-subtext">React-Native를 이용한 Front-End 개발</p>
+        <div class="section">
+            <section>
+                <h2>Projetc</h2>
+                <div class="float-wrap">
+                    <p class="title-text">한이음 프로젝트</p>
+                    <p class="year-text">2021</p>
+                </div>
+                <p class="desc-text">중고거래 반찬 앱 - Fooding</p>
+                <p class="desc-subtext">React-Native를 이용한 Front-End 개발<br>
+                    처음으로 해보는 프로젝트이며 공모전이기에 경험을 중점으로 학습함<br>
+                경험을 쌓고 학교 안의 활동으로 얻는것보다 많은 경험을 하기</p>
 
-            <div class="float-wrap">
-                <p class="title-text">대학교 졸업작품</p>
-                <p class="year-text">2022</p>
-            </div>
-            <p class="desc-text">JAVA를 이용한  앱 만들기</p>
-            <p class="desc-subtext">사용자가 원하는 데이터를 검색해서 알려주는 도우미</p>
-        </section>
+                <div class="float-wrap">
+                    <p class="title-text">대학교 졸업작품</p>
+                    <p class="year-text">2022</p>
+                </div>
+                <p class="desc-text">JAVA를 이용한 앱 만들기</p>
+                <p class="desc-subtext">사용자가 원하는 데이터를 검색해서 알려주는 도우미<br>
+                사용자가 직접 원하는 기능과 항상 같은 시간에 확인할 데이터들을 지정해놓으면<br>각 사용자에 맞게 서비스를 제공하는 앱</p>
+            </section>
+        </div>
+        <div class="section">
+            <section>
+                <h2>Activities</h2>
+                <div class="float-wrap">
+                    <p class="title-text">스터디 동아리</p>
+                    <p class="year-text">2021~2022</p>
+                </div>
+                <p class="desc-text">JAVA, JavaScript 공부</p>
+                <p class="desc-subtext">JAVA와 JavaScript의 공부 및 간단한 프로젝트<br>
+                학교공부외에도 스스로 공부하며 학습하기 위한 활동<br>
+            공부하고 배운것을 바탕으로 2022년안에 졸업작품을 제외하고<br>새로운 하나의 웹서비스 혹은 앱 만들어보기</p>
 
-        <section>
-            <h2>Activities</h2>
-            <div class="float-wrap">
-                <p class="title-text">스터디 동아리</p>
-                <p class="year-text">2021</p>
+                <div class="float-wrap">
+                    <p class="title-text">공모전 및 대회</p>
+                    <p class="year-text">2022</p>
+                </div>
+                <p class="desc-text">한이음</p>
+                <p class="desc-subtext">21년도에 참여한 한이음 공모전<br>
+                처음 참여와 달리 한번 경험하고 꾸준히 공부하여 실무능력을 쌓아<br>
+                처음보다 완성도 있는 프로젝트 해보기</p>
+                <p class="desc-text">해커톤(Hackathon)</p>
+                <p class="desc-subtext">해커톤에 참가하여 입상...까진 아니더라도 충분한 경험해보기<br>
+                단순히 학교안에서 잘하고 만족하는 우물안의 개구리가 되지말고 밖에서 부딪쳐서 시야 넓어지기</p>
+            </section>
+            <div class="sns-wrap">
+                <a href="https://www.notion.so/a507ad3ff20247d0a8c3e8079aac4227"><img class="sns-img" src="img/icon.png"
+                        alt="SNS"></a>
             </div>
-            <p class="desc-text">JAVA, JavaScript 공부</p>
-            <p class="desc-subtext">JAVA와 JavaScript의 공부 및 간단한 프로젝트</p>
-
-            <div class="float-wrap">
-                <p class="title-text">공모전 및 대회</p>
-                <p class="year-text">2022</p>
-            </div>
-            <p class="desc-text">해커톤(Hackathon)</p>
-            <p class="desc-subtext">해커톤에 참가하여 입상...까진 아니더라도 충분한 경험해보기</p>
-        </section>
-        <div class="sns-wrap">
-            <!-- <img class="sns-img" src="img/facebook.png" alt="SNS">
-            <img class="sns-img" src="img/insta.png" alt="SNS">
-            <img class="sns-img" src="img/linked-in.png" alt="SNS">
-            <img class="sns-img" src="img/twitter.png" alt="SNS"> -->
-            <a href="https://www.notion.so/a507ad3ff20247d0a8c3e8079aac4227"><img class="sns-img" src="img/icon.png"
-                    alt="SNS"></a>
         </div>
     </div>
     <footer>
         <p>Copyright Daeli All rights reserved.</p>
     </footer>
-
+    <script>
+        new fullpage('#fullpage', {
+            //options here
+            autoScrolling: true,
+            scrollHorizontally: true
+        });
+    </script>
 </body>
 
 </html>
