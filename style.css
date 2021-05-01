@@ -29,17 +29,17 @@ footer{
     font-style: italic;
 }
 .about-me-text{
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 20px;
+    /* line-height: 16px; */
 }
 .title-text{
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bold;
     color: #282828;
     float: left;
 }
 .year-text{
-    font-size: 11px;
+    font-size: 21px;
     font-weight: bold;
     color: #282828;
     float: right;
@@ -61,10 +61,10 @@ h2{
     overflow: hidden;
 }
 .desc-text{
-    font-size: 13px;
+    font-size: 23px;
 }
 .desc-subtext{
-    font-size: 9px;
+    font-size: 19px;
     color: #282828;
     padding-left: 16px;
 }
@@ -92,7 +92,7 @@ h2{
     margin:0 50px 0 50px;
     padding:1px 0 0 0;
     border:1px solid #ddd;
-    border-top:0;border-right:0;font-size:3px;
+    border-top:0;border-right:0;font-size:13px;
     font-family:Tahoma, Geneva, sans-serif;list-style:none
 }
 .h_graph li{
@@ -103,7 +103,7 @@ h2{
 }
 .h_graph .g_term{
     position:absolute;
-    top: -3px;left:-50px;
+    top: -3px;left:-60px;
     width:40px;
     font-weight:bold;color:#767676;line-height:20px;text-align:right
 }
@@ -122,7 +122,7 @@ h2{
     margin:0 50px 0 50px;
     padding:1px 0 0 0;
     border:1px solid #ddd;
-    border-top:0;border-right:0;font-size:3px;
+    border-top:0;border-right:0;font-size:13px;
     font-family:Tahoma, Geneva, sans-serif;list-style:none
 }
 .h_graph2 li{
